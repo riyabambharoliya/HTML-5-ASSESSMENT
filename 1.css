@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    height:70%;
+    width: 170vh;
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: 0 0 3px white;
+    background-image: url('bg-image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    position: relative;
+}
+.middle{
+    height: 290px;
+    width: 380px;
+    border: 2px solid white;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    padding: 10px;
+    color:black;
+    background-image: linear-gradient(white,rgb(226, 217, 217));
+    opacity: 0.6;
+
+}
+.middle h3{
+    padding: 5px;
+    padding-bottom: 5px;
+}
+.middle .pare1,.pare2{
+    padding: 5px;
+}
+
+.intro{
+    color:rgb(9, 9, 162);
+}
+
+.side {
+    height: 700px;
+    width: 270px;
+    background-image: linear-gradient(rgb(30, 30, 30), rgb(22, 18, 18));
+    opacity: 0.6;
+    position: relative;
+}
+
+.square1 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    border: 2px solid white;
+    margin: 45px;
+    position: absolute;
+    top: 35px;
+    padding: 35px;
+    box-shadow: 0 0 3px white;
+    height: 150px;
+    width: 200px;
+}
+.square2 {
+    height: 150px;
+    width: 200px;
+    border: 2px solid white;
+    position: absolute;
+    top: 90px;
+    left: 55px;
+    box-shadow: 0 0 3px white;
+}
+.list {
+    position: absolute;
+    bottom: 190px;
+    left: 100px;
+    font-size: 20px;
+    /* margin: auto; */
+    color: white;
+}
+.main ul li {
+    list-style: none;
+    padding: 12px;
+}
+.icon {
+    position: absolute;
+    bottom: 100px;
+    left: 75px;
+    font-size: 25px;
+    color: black;
+}
+
+.icon i {
+    background: #fff;
+    padding: 4px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.image {
+    width: 90px;
+    height: 90px;
+}
+.container2 {
+    width: 1000px;
+    /* margin: 25px;  */
+    margin: auto;
+    position: relative;
+}
+.row2 {
+    display: flex;
+    padding: 30px;
+  
+}
+.col
+{
+    width: 500px;
+}
+.c{
+    margin-left: 250px;
+}
+.c1
+{
+    margin-left: 100px;
+}
+.p
+{
+    margin-bottom: 20px;
+}
+.row .col p{
+    padding: 0px;
+    width: 500px;
+   
+}
+.col h2{
+    margin: 20px 0;
+}
+.aside2 {
+    height: 1800px;
+    width: 270px;
+    background-color: gray;
+    position: absolute;
+    left: -127px;
+}
+.our-clients{
+    position: absolute;
+    padding-left: 280px;
+}
+.our-clients h3{
+    color: blue;
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+.slide-container{
+    position: relative;
+    margin-top: 50px;
+    background-color: gainsboro;
+    color: blue;
+    left: 170px;
+    height: 400px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  min-width: 100%;
+  margin-left: 150px;
+  position: absolute;
+}
+.carousel-inner{
+position: absolute;
+left: -150px;
+padding-left:190px;
+}
+#myCarousel{
+    position: absolute;
+    left: 200px;
+    bottom: 50px;
+}
+ .item{
+    position: absolute;
+        height: 290px;
+        width: 600px;
+        margin-left: -80px;
+ }
+.slide-container h1{
+    position: absolute;
+    left: 12px;
+}
+.container3 .row3{
+    position: relative;
+    left: 420px;
+    display: flex;
+    padding: 25px;
+    bottom: -150px;
+    left: 230px;
+} 
+.container3 .row4{
+    position: relative;
+    left: 420px;
+    display: flex;
+    padding: 27px;
+    bottom: -100px;
+    left: 230px;
+} 
+ .row3 img{
+    border: 2px solid whitesmoke;
+    border-width: 3px;
+    width: 175px;
+    padding: 27px;
+    margin: 5px;    
+}
+.row4 img{
+    border: 2px solid whitesmoke;
+    border-width: 3px;
+    width: 175px;
+    padding: 27px;
+    margin: 5px;    
+}
+.container4 .row5{
+    display: flex;
+    position: relative;
+    left: 260px;
+    top: 145px;
+}
+.container4 .row5 h1{
+    padding-left: 15px;
+    color: blue;
+    padding: 25px;
+}
+.container4 p{
+    padding-left: 15px;
+    width: 400px;
+    margin: 15px;
+}
+.box1{
+    height: 370px;
+    width: 370px;
+    border: 2px solid whitesmoke;
+    position: absolute;
+}
+.box2{
+    height: 370px;
+    width: 370px;
+    border: 2px solid whitesmoke;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.p2{
+    position:absolute;
+    padding: 3px;
+  
+}
+.name,.email{
+    border: none;
+    position: relative;
+    border-bottom: 2px solid black;
+    padding: 3px;
+    width: 300px;
+    padding-top: 35px;
+}
+.msg{
+    border-bottom: 2px solid black;
+    width: 300px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+.send{
+    position: absolute;
+    top: 300px;
+    right: 270px;
+    padding: 7px;
+    border: 2px solid white;
+    background: whitesmoke;
+}
